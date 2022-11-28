@@ -51,6 +51,9 @@
 }
 .large-testimonial-1 {
   background-color: hsl(263, 55%, 52%);
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top 1rem right 5rem;
 }
 
 .large-testimonial-2 {
@@ -121,5 +124,9 @@
 
   .inner-grid > div {
     margin-bottom: 1rem;
+  }
+
+  .large-testimonial-1 {
+    background-position: top 0 right 2rem;
   }
 }
